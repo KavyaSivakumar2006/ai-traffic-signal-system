@@ -1,0 +1,7 @@
+__pycache__/
+*.pt
+.vscode/
+static/
+templates/
+app.py
+run.bat
