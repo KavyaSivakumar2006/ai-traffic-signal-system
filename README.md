@@ -10,6 +10,9 @@ It detects vehicles from webcam input and dynamically adjusts signal timing base
 ## 🧠 Model Used
 - YOLOv8 Nano (Ultralytics)
 - Pretrained on COCO Dataset
+- Python
+- OpenCV
+- NumPy
 
 ---
 
