@@ -43,18 +43,21 @@ Signal cycle: RED → GREEN → YELLOW → RED
 
 ## 📂 Project Structure
 
+```
 ai-traffic-signal-system
 
-── traffic_ai.py
-── requirements.txt
-── README.md
-── .gitignore
+- traffic_ai.py
+- requirements.txt
+- README.md
+- .gitignore
+
+```
 
 ## Installation Instructions
-
+```
 git clone https://github.com/KavyaSivakumar2006/ai-traffic-signal-system.git
 cd ai-traffic-signal-system
-
+```
 ## ▶ How to Run
 
 ```
@@ -68,3 +71,5 @@ python traffic_ai.py
 - Multi-camera integration
 - Web dashboard
 - Emergency priority system
+
+
