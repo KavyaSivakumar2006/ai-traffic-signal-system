@@ -41,6 +41,15 @@ Signal cycle: RED → GREEN → YELLOW → RED
 
 ---
 
+## 📂 Project Structure
+
+ai-traffic-signal-system
+│
+├── traffic_ai.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 ## ▶ How to Run
 
 ```
