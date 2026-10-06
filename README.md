@@ -1,75 +1,61 @@
 # 🚦 AI-Based Real-Time Adaptive Traffic Signal System
 
 ## 📌 Overview
+
 This project implements a real-time adaptive traffic signal system using YOLOv8 object detection.
 
-It detects vehicles from webcam input and dynamically adjusts signal timing based on vehicle density.
+It detects vehicles from webcam input, analyzes vehicle density, and dynamically adjusts traffic signal timing based on the detected traffic conditions.
+
+The project is currently being upgraded from a basic vehicle-count-based system to a more advanced AI-based traffic management system with vehicle tracking, traffic analysis, intelligent signal control, emergency vehicle priority, and a web-based monitoring dashboard.
 
 ---
 
-## 🧠 Model Used
-- YOLOv8 Nano (Ultralytics)
-- Pretrained on COCO Dataset
+## 🧠 Technologies Used
+
 - Python
+- YOLOv8 Nano (Ultralytics)
 - OpenCV
 - NumPy
+- PyTorch
 
 ---
 
-## ⚙ Workflow
+## ⚙️ Current Workflow
 
-Webcam  
-↓  
-YOLO Detection  
-↓  
-Vehicle Counting  
-↓  
-Traffic Density Classification  
-↓  
-Adaptive Signal Timing  
-↓  
-Live Display  
+Webcam
+↓
+YOLO Detection
+↓
+Vehicle Classification
+↓
+Vehicle Counting
+↓
+Traffic Density Classification
+↓
+Adaptive Signal Timing
+↓
+Live Display
 
 ---
 
-## 🚦 Signal Logic
+## 🚦 Current Signal Logic
+
 0–10 vehicles → 20 sec green  
 11–20 vehicles → 40 sec green  
-21+ vehicles → 60 sec green  
+21+ vehicles → 60 sec green
 
-Signal cycle: RED → GREEN → YELLOW → RED  
+Signal cycle:
+
+RED → GREEN → YELLOW → RED
 
 ---
 
 ## 📂 Project Structure
 
-```
-ai-traffic-signal-system
-
-- traffic_ai.py
-- requirements.txt
-- README.md
-- .gitignore
-
-```
-
-## Installation Instructions
-```
-git clone https://github.com/KavyaSivakumar2006/ai-traffic-signal-system.git
-cd ai-traffic-signal-system
-```
-## ▶ How to Run
-
-```
-pip install -r requirements.txt
-python traffic_ai.py
-```
-
----
-
-## 🚀 Future Scope
-- Multi-camera integration
-- Web dashboard
-- Emergency priority system
-
-
+```text
+ai-traffic-signal-system/
+│
+├── traffic_ai.py
+├── requirements.txt
+├── README.md
+└── .gitignore
